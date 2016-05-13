@@ -21,6 +21,7 @@
 
 -(void)viewDidLoad{
     [super viewDidLoad];
+    
     self.title = @"第二个界面";
     UIButton *btnBack = [UIButton buttonWithType:UIButtonTypeCustom];
     [btnBack setTitle:@"返回" forState:UIControlStateNormal];
