@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  3DTouchDemo
+//
+//  Created by 小城生活 on 16/5/13.
+//  Copyright © 2016年 小城生活. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "FirstViewController.h"
+#import "SecViewController.h"
+
+#endif /* PrefixHeader_pch */
