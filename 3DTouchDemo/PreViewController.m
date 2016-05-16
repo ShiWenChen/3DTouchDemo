@@ -16,8 +16,42 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
 }
+-(void)viewWillAppear:(BOOL)animated{
+    self.title = @"详细信息";
+}
+
+/**
+ *  实现预览时，上划出现的选项
+ *
+ *  @return UIPreviewAction 的数组
+ */
+-(NSArray<id<UIPreviewActionItem>> *)previewActionItems{
+    /**
+     *  默认形式
+     */
+    UIPreviewAction *action1 = [UIPreviewAction actionWithTitle:@"滑动选项一" style:UIPreviewActionStyleDefault handler:^(UIPreviewAction * _Nonnull action, UIViewController * _Nonnull previewViewController) {
+        NSLog(@"滑动选项一点击");
+
+    }];
+    /**
+     *  选择形式
+     */
+    UIPreviewAction *action2 = [UIPreviewAction actionWithTitle:@"滑动选项二" style:UIPreviewActionStyleSelected handler:^(UIPreviewAction * _Nonnull action, UIViewController * _Nonnull previewViewController) {
+        NSLog(@"滑动选项二点击");
+        
+    }];
+    /**
+     *  默认形式
+     */
+    UIPreviewAction *action3 = [UIPreviewAction actionWithTitle:@"滑动选项三" style:UIPreviewActionStyleDestructive handler:^(UIPreviewAction * _Nonnull action, UIViewController * _Nonnull previewViewController) {
+        NSLog(@"滑动选项三点击");
+        
+    }];
+    return @[action1,action2,action3];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

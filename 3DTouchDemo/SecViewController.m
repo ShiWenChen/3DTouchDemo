@@ -26,9 +26,9 @@
     UIButton *btnBack = [UIButton buttonWithType:UIButtonTypeCustom];
     [btnBack setTitle:@"返回" forState:UIControlStateNormal];
     [btnBack addTarget:self action:@selector(backAction) forControlEvents:UIControlEventTouchUpInside];
+    [btnBack setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     btnBack.frame = CGRectMake(0, 0, 40, 30);
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btnBack];
-    self.navigationController.navigationBar.barTintColor = [UIColor redColor];
     
 }
 -(void)backAction{

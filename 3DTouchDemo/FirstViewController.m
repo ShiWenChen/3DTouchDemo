@@ -28,6 +28,7 @@
         
     }
     
+    
 }
 /**
  *  点击预览，进入该方法
@@ -36,9 +37,14 @@
 -(UIViewController *)previewingContext:(id<UIViewControllerPreviewing>)previewingContext viewControllerForLocation:(CGPoint)location{
     PreViewController *previewController = [[PreViewController alloc] init];
     previewController.view.backgroundColor = [UIColor redColor];
+    /**
+     *  设置可视范围大小，不设置默认全屏
+     */
+//    previewController.preferredContentSize = CGSizeMake([UIScreen mainScreen].bounds.size.width, 300);
     return previewController;
     
 }
+
 
 /**
  *  继续按压进入
