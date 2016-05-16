@@ -17,6 +17,7 @@
 		BFC0E6651CE5AC8C00BE345E /* _DTouchDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC0E6641CE5AC8C00BE345E /* _DTouchDemoUITests.m */; };
 		BFC0E6741CE5AE9500BE345E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC0E6731CE5AE9500BE345E /* FirstViewController.m */; };
 		BFC0E6771CE5B09200BE345E /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC0E6761CE5B09200BE345E /* SecViewController.m */; };
+		BFC0E67E1CE5DE3600BE345E /* PreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC0E67D1CE5DE3600BE345E /* PreViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		BFC0E6751CE5B09200BE345E /* SecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
 		BFC0E6761CE5B09200BE345E /* SecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecViewController.m; sourceTree = "<group>"; };
 		BFC0E6781CE5BB0100BE345E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BFC0E67C1CE5DE3600BE345E /* PreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreViewController.h; sourceTree = "<group>"; };
+		BFC0E67D1CE5DE3600BE345E /* PreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				BFC0E6731CE5AE9500BE345E /* FirstViewController.m */,
 				BFC0E6751CE5B09200BE345E /* SecViewController.h */,
 				BFC0E6761CE5B09200BE345E /* SecViewController.m */,
+				BFC0E67C1CE5DE3600BE345E /* PreViewController.h */,
+				BFC0E67D1CE5DE3600BE345E /* PreViewController.m */,
 				BFC0E6481CE5AC8B00BE345E /* Main.storyboard */,
 				BFC0E64B1CE5AC8C00BE345E /* Assets.xcassets */,
 				BFC0E64D1CE5AC8C00BE345E /* LaunchScreen.storyboard */,
@@ -286,6 +291,7 @@
 				BFC0E6441CE5AC8B00BE345E /* AppDelegate.m in Sources */,
 				BFC0E6411CE5AC8B00BE345E /* main.m in Sources */,
 				BFC0E6771CE5B09200BE345E /* SecViewController.m in Sources */,
+				BFC0E67E1CE5DE3600BE345E /* PreViewController.m in Sources */,
 				BFC0E6741CE5AE9500BE345E /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
